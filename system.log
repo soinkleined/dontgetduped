@@ -1,0 +1,100 @@
+Feb  7 00:00:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:00:36 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0C000000-0700-0000-0000-000000000000[18144]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:01:09 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0B000000-0700-0000-0000-000000000000[18137]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:01:12 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.05000000-0700-0000-0000-000000000000[18139]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:01:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:01:27 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:02:15 dummyhost Google Chrome Helper[18209]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:02:22 --- last message repeated 17 times ---
+Feb  7 00:02:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:02:26 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:26 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:26 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:26 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:42 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:02:56 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:56 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:56 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:56 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:02:57 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.01000000-0000-0000-0000-000000000000[18210]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:02:57 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.05000000-0000-0000-0000-000000000000[18198]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:03:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+
+Feb  7 00:03:28 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:03:28 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:03:28 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:03:42 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:03:45 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.03000000-0000-0000-0000-000000000000[18145]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:03:47 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.01000000-0100-0000-0000-000000000000[18231]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:03:55 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0B000000-0000-0000-0000-000000000000[18225]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:03:59 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:03:59 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:03:59 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:03:59 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:04:15 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:04:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:04:22 dummyhost syslogd[54]: ASL Sender Statistics
+Feb  7 00:04:31 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:04:31 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:04:31 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:04:31 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:04:54 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:05:00 --- last message repeated 1 time ---
+Feb  7 00:05:00 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.01000000-0200-0000-0000-000000000000[18241]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:05:02 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:02 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:02 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:02 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:19 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:19 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:19 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:19 dummyhost VTDecoderXPCService[15451]: DEPRECATED USE in libdispatch client: Changing target queue hierarchy after xpc connection was activated; set a breakpoint on _dispatch_bug_deprecated to debug
+Feb  7 00:05:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:06:01 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.01000000-0300-0000-0000-000000000000[18248]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:06:03 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:06:10 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0B000000-0100-0000-0000-000000000000[18243]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:06:12 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.07000000-0300-0000-0000-000000000000[18252]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:06:19 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0C000000-0000-0000-0000-000000000000[18251]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:06:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:06:36 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:07:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:07:28 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.03000000-0100-0000-0000-000000000000[18246]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:07:28 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.05000000-0100-0000-0000-000000000000[18230]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:07:35 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0B000000-0200-0000-0000-000000000000[18258]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:07:46 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:07:48 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0C000000-0100-0000-0000-000000000000[18259]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:08:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:08:26 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:08:55 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0C000000-0200-0000-0000-000000000000[18265]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:08:55 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.03000000-0200-0000-0000-000000000000[18269]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:08:55 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0B000000-0300-0000-0000-000000000000[18267]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:08:55 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.05000000-0200-0000-0000-000000000000[18266]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:08:55 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.01000000-0400-0000-0000-000000000000[18276]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:08:56 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.06000000-0600-0000-0000-000000000000[18277]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:08:59 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:09:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:09:50 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0D000000-0600-0000-0000-000000000000[18285]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:50 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.06000000-0700-0000-0000-000000000000[18280]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:50 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.05000000-0300-0000-0000-000000000000[18279]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:50 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.09000000-0700-0000-0000-000000000000[18268]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:51 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0A000000-0100-0000-0000-000000000000[18284]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:51 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0E000000-0400-0000-0000-000000000000[18286]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:51 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.03000000-0300-0000-0000-000000000000[18283]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:51 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0B000000-0400-0000-0000-000000000000[18282]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:09:51 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.10000000-0100-0000-0000-000000000000[18287]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:10:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:11:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:12:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:12:52 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0C000000-0300-0000-0000-000000000000[18281]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:12:53 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.01000000-0500-0000-0000-000000000000[18293]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:13:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:14:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:14:22 dummyhost syslogd[54]: ASL Sender Statistics
+Feb  7 00:15:22 dummyhost Google Chrome Helper[15631]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:16:07 dummyhost Google Chrome Helper[15444]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+Feb  7 00:16:13 --- last message repeated 2 times ---
+Feb  7 00:16:13 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0C000000-0400-0000-0000-000000000000[18299]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:16:13 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.0E000000-0500-0000-0000-000000000000[18303]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:16:13 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.01000000-0600-0000-0000-000000000000[18306]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:16:13 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.07000000-0000-0000-0000-000000000000[18308]): Service exited due to SIGKILL | sent by mds[82]
+Feb  7 00:16:16 dummyhost com.apple.xpc.launchd[1] (com.apple.mdworker.shared.10000000-0200-0000-0000-000000000000[18292]): Service exited due to SIGKILL | sent by mds[82]
