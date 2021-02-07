@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+#https://stackoverflow.com/questions/30627810/how-to-parse-this-custom-log-file-in-python
+#https://stackoverflow.com/questions/1024847/how-can-i-add-new-keys-to-a-dictionary
+import pprint
+import re
+
+def parse_log(Logfile):
+    List = []
+    File = open(Logfile)
+    n=0
+    for line in File:
+        if len(line.split()) >= 4:
+            d = dict()
+            Month = line.split()[0]
+            Day = line.split()[1]
+            Time = line.split()[2]
+            Date = Month + " " + Day + " " + Time
+            Hostname = line.split()[3]
+            Restline = line.split()[4:]
+            s = ' '
+            Message = s.join(Restline)
+            d['First Occurance'] = Date
+            d['Last Occurance'] = Date
+            d['Count'] = 1
+            d['Hostname'] = Hostname
+            d['Message'] = Message
+            Repeat = re.search('^last message repeated (\d+) times? ---$',  Message)
+            if not List:
+                List.append(d)
+                n += 1
+            elif Repeat:
+                print(Repeat.group(1))
+                #List[n]['Count'] += Repeat.group(1)
+                #print(List[n]['Count'])
+            else:
+                    Match = 0
+                    for Entry in List:
+                        if Entry['Message'] == Message:
+                            Entry['Count'] += 1
+                            Entry.update({'Last Occurance': Date})
+                            Match = 1
+                            break # stop checking after match
+                    if not Match:
+                        List.append(d)
+                        n += 1
+        #else:
+            #print(line)
+
+    pprint.pprint(List, sort_dicts=False)
+    print('The count of List is:', len(List))
+    File.close()
+
+parse_log("/var/log/system.log")
+
+
+
+#Feb  6 16:40:56 irwin Google Chrome Helper[15585]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
+#Feb  6 16:40:56 --- last message repeated 3 times ---
