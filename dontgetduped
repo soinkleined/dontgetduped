@@ -24,14 +24,18 @@ def parse_log(Logfile):
             d['Count'] = 1
             d['Hostname'] = Hostname
             d['Message'] = Message
-            Repeat = re.search('^last message repeated (\d+) times? ---$',  Message)
+            Repeated = re.search('^last message repeated (\d+) times? ---$',  Message)
             if not List:
                 List.append(d)
+                print( "n = ", n )
                 n += 1
-            elif Repeat:
-                print(Repeat.group(1))
-                #List[n]['Count'] += Repeat.group(1)
-                #print(List[n]['Count'])
+            elif Repeated:
+                Times = Repeated.group(1)
+                print( "Repeated = ", Times )
+                #List[n]['Count'] += Repeated.group(1)
+                #print(n)
+                #print(List[-1]['Message'])
+
             else:
                     Match = 0
                     for Entry in List:
@@ -42,11 +46,12 @@ def parse_log(Logfile):
                             break # stop checking after match
                     if not Match:
                         List.append(d)
+                        print( "n = ", n )
                         n += 1
         #else:
             #print(line)
 
-    pprint.pprint(List, sort_dicts=False)
+#    pprint.pprint(List, sort_dicts=False)
     print('The count of List is:', len(List))
     File.close()
 
