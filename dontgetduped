@@ -8,7 +8,6 @@ def parse_log(Logfile):
     List = []
     print('The count of List is:', len(List))
     File = open(Logfile)
-    n=0
     for line in File:
         if len(line.split()) >= 4:
             d = dict()
@@ -28,11 +27,10 @@ def parse_log(Logfile):
             Repeated = re.search('^last message repeated (\d+) times? ---$',  Message)
             if not List:
                 List.append(d)
-                n += 1
             elif Repeated:
                 Times = int(Repeated.group(1))
-                List[n-1]['Count'] += Times
-                List[n-1]['Last Occurance'] = Date
+                List[-1]['Count'] += Times
+                List[-1]['Last Occurance'] = Date
             else:
                     Match = 0
                     for Entry in List:
@@ -43,11 +41,10 @@ def parse_log(Logfile):
                             break # stop checking after match
                     if not Match:
                         List.append(d)
-                        n += 1
         #else:
             #print(line)
 
-#    pprint.pprint(List, sort_dicts=False)
+    pprint.pprint(List, sort_dicts=False)
     print('The count of List is:', len(List))
     File.close()
 
