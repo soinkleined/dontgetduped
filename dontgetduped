@@ -6,6 +6,7 @@ import re
 
 def parse_log(Logfile):
     List = []
+    print('The count of List is:', len(List))
     File = open(Logfile)
     n=0
     for line in File:
@@ -46,15 +47,9 @@ def parse_log(Logfile):
         #else:
             #print(line)
 
-    pprint.pprint(List, sort_dicts=False)
+#    pprint.pprint(List, sort_dicts=False)
     print('The count of List is:', len(List))
     File.close()
 
 parse_log("system.log")
 #parse_log("/var/log/system.log")
-
-
-
-
-#Feb  6 16:40:56 irwin Google Chrome Helper[15585]: Libnotify: notify_register_coalesced_registration failed with code 9 on line 2835
-#Feb  6 16:40:56 --- last message repeated 3 times ---
