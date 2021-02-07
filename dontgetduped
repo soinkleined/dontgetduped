@@ -34,7 +34,7 @@ def parse_log(Logfile):
                 print( "Repeated = ", Times )
                 #List[n]['Count'] += Repeated.group(1)
                 #print(n)
-                #print(List[-1]['Message'])
+                print("want to address -> List[",n,"]['Count']")
 
             else:
                     Match = 0
